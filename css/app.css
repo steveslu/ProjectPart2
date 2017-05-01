@@ -1,0 +1,95 @@
+.header {
+  text-align: center;
+  background: #074E68;
+  background-size: cover;
+  position: relative;
+  overflow: visible;
+  padding-top: 2.5rem;
+  padding-bottom: 4.9rem;
+  height: 200px;
+}
+  .header  {
+    color: #ffe;
+  }
+
+  .header-subnav {
+    float: none;
+    position: absolute;
+    text-align: center;
+    margin: 0 auto;
+    bottom: 0;
+    width: 100%; }
+    .header-subnav li {
+      float: none;
+      display: inline-block; }
+      .header-subnav li a {
+        padding: 0.9rem 1rem;
+        font-size: 0.75rem;
+        color: #ffe;
+        text-transform: uppercase;
+        display: block;
+        font-weight: bold;
+        letter-spacing: 1px;
+        transition: all 0.35s ease-in-out; }
+        .header-subnav li a.is-active {
+          background: rgba(250, 250, 250, 0.15); }
+        .header-subnav li a:hover {
+          background: rgba(250, 250, 250, 0.15);
+          transition: all 0.35s ease-in-out; }
+
+.headline{
+  color: #ffe;
+}
+
+.resume_back{
+  background-color: azure;
+}
+
+body{
+  background-color:azure;
+}
+
+#orb{
+  margin:auto;
+  display:block;
+  text-align:center;
+}
+
+.phone{
+  text-align:center;
+}
+
+.head_shot{
+  display:block;
+  margin:auto;
+}
+
+.row_columns{
+  height:auto;
+}
+
+
+.orbit-container{
+  height:auto;
+}
+
+.text-resume{
+  text-align:center;
+}
+
+.resume-button{
+  text-align:center;
+}
+
+#tab-resume, #change-resume{
+  display:block;
+  margin:auto;
+  width: 30%;
+  text-align:center;
+}
+
+#resume{
+  width:80%;
+  margin:auto;
+  display:none;
+}
